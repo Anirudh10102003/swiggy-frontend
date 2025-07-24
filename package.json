@@ -2,7 +2,8 @@
   "name": "day19",
   "version": "1.0.0",
   "scripts": {
-    "build": "parcel build index.html",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html --dist-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -23,5 +24,9 @@
   },
   "devDependencies": {
     "process": "^0.11.10"
-  }
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead"
+  ]
 }
